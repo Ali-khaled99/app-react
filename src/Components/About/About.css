@@ -1,0 +1,32 @@
+.about-sec{
+    background-color: #1ABC9C;
+}
+.about-sec h1{
+    font-size: 50px;
+    color: white;
+}
+.about-sec i{
+    color: white;
+
+}
+.about-sec-line{
+    width: 40px;
+}
+.about-sec-line::after{
+    content: "";
+    background-color: white;
+    width: 100px;
+    height: 4px;
+    top: 10px;
+    right: 50px;
+    position: absolute;
+}
+.about-sec-line::before{
+    content: "";
+    background-color: white;
+    width: 100px;
+    height: 4px;
+    top: 10px;
+    left: 50px;
+    position: absolute;
+}

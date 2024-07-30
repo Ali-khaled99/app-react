@@ -1,0 +1,26 @@
+.info{
+    width: 100%;
+    background-color: #2c3e50;
+    font-weight: bolder
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.info a:hover {
+    color: black;
+    background-color: white;
+}
